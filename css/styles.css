@@ -15,36 +15,45 @@ body{
 ul{
     list-style: none;
 }
+
 img{
     max-width: 100%;
 }
+
 h1,h2{
     margin-bottom: 15px ;
 }
+
 .container{
-    max-width: 1100px;
+    max-width: 1000px;
     margin: 0 auto;
     padding: 0 30px;
+    
 }
 
 .navbar{
     background: #3474e6;
     color: white;
-    /* height: 60px; */
+     /* height: 20px; */
 }
 
 .navbar .logo{
     font-size: x-large;
     
 }
+.navbar ul{
+    display: flex;
+    }
 .navbar a{
     color: white;
     text-decoration: none;
     font-size: 18px;
     }
+
 .navbar a:hover{
     color: lightblue;
 }
+
 .navbar .container{
     display: flex;
     justify-content: space-between;
@@ -52,9 +61,6 @@ h1,h2{
     height: 100%;
 }
 
-.navbar ul{
-    display: flex;
-    }
 .navbar ul li{
     margin-left: 20px;
 }
@@ -62,13 +68,27 @@ h1,h2{
 .header{
     background-color: rgb(53, 94, 182);
     color: white;
-    min-height: 400px;
-}
-.header img{
-    max-width: 200px;
-    flex-basis: 60%;
-
+   
 }
 .header .container{
     display: flex;
+    flex-direction: row; 
+    justify-content: space-between;
+    height: 300px;
 }
+
+.header .container .txt-head{
+    align-self: center;
+     
+}
+.header .container img{
+    max-width: 200px;
+
+}
+
+.boxes .container{
+    display: flex;
+
+}
+
+
